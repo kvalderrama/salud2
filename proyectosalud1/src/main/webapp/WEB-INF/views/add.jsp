@@ -7,6 +7,6 @@
 <title>pagina de ingreso</title>
 </head>
 <body>
-	<label>Prueba de ingreso ${nombre} dsd</label>
+	<label>Prueba de ingreso ${nombre} dassd</label>
 </body>
 </html>
