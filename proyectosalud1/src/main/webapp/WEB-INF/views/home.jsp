@@ -15,7 +15,7 @@
 			<th>
 				<select>
 					<option value="cc">CC</option>
-					<option value="ti">TI</option>
+					<option value="ti">TII</option>
 					<option value="ce">CE</option>
 				</select>
 			</th>
