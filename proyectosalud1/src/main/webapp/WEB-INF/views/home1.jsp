@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>principal Salud II</title>
 </head>
 <body>
-<label>Identificacion del usuario</label>
+	<label>Identificacion del usuario</label>
 	<form action="/proyectosalud1/add" method="get">
 	<table>
 		<tr>
@@ -15,7 +15,7 @@
 			<th>
 				<select>
 					<option value="cc">CC</option>
-					<option value="ti">TI</option>
+					<option value="ti">TII</option>
 					<option value="ce">CE</option>
 				</select>
 			</th>
@@ -44,7 +44,7 @@
 				<label>Primer apellido</label>
 			</th>
 			<td>
-				<input type="text" name="primerApellido" required="required"/>
+				<input type="text" name="pa"/>
 			</td>
 		</tr>
 		<tr>
@@ -52,7 +52,7 @@
 				<label>Segundo apellido</label>
 			</th>
 			<td>
-				<input type="text" name="segundoApellido"/>
+				<input type="text" name="sa"/>
 			</td>
 		</tr>
 		<tr>
@@ -60,7 +60,7 @@
 				<label>Primer nombre</label>
 			</th>
 			<td>
-				<input type="text" name="primerNombre" required="required"/>
+				<input type="text" name="pn"/>
 			</td>
 		</tr>
 		<tr>
@@ -68,7 +68,7 @@
 				<label>Segundo nombre</label>
 			</th>
 			<td>
-				<input type="text" name="segundoNombre"/>
+				<input type="text" name="sn"/>
 			</td>
 		</tr>
 		<tr>
@@ -76,7 +76,7 @@
 				<label>Fecha de nacimiento</label>
 			</th>
 			<td>
-				<input type="date" name="fechaNacimiento"/>
+				<input type="text" name="fn"/>
 			</td>
 		</tr>
 		<tr>
@@ -93,7 +93,7 @@
 				<label>Código país</label>
 			</th>
 			<td>
-				<input type="number" name="codigoPais" min="7" maxlength="15"/>
+				<input type="text" name="codigoPais" />
 			</td>
 		</tr>
 		<tr>
@@ -101,7 +101,7 @@
 				<label>Código ciudad</label>
 			</th>
 			<td>
-				<input type="number" name="codigoCiudad" min="7" maxlength="15"/>
+				<input type="text" name="codigoCiudad"/>
 			</td>
 		</tr>
 		<tr>
@@ -109,7 +109,7 @@
 				<label>Teléfono celular</label>
 			</th>
 			<td>
-				<input type="text" name="telCelular" min="7" maxlength="15"/>
+				<input type="text" name="telCelular"/>
 			</td>
 		</tr>
 		<tr>
@@ -117,7 +117,7 @@
 				<label>Correo electrónico</label>
 			</th>
 			<td>
-				<input type="email" name="correoElectronico"/>
+				<input type="text" name="correoElectronico"/>
 			</td>
 		</tr>
 		<tr>
@@ -139,6 +139,7 @@
 			</th>
 		</tr>
 	</table>
+	<button type="submit">Enviar</button>
 	</form>
 </body>
 </html>

@@ -1,9 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
@@ -11,7 +9,7 @@
 	<form action="/proyectosalud1/add" method="get">
 	<table>
 		<tr>
-			<th><label>Tipo de identificación</label></th>
+			<th><label>Tipo de identificación sddassdasd</label></th>
 			<th>
 				<select>
 					<option value="cc">CC</option>
@@ -93,7 +91,7 @@
 				<label>Código país</label>
 			</th>
 			<td>
-				<input type="number" name="codigoPais" min="7" maxlength="15"/>
+				<input type="number" name="codigoPais" min="7" max="15"/>
 			</td>
 		</tr>
 		<tr>
@@ -101,7 +99,7 @@
 				<label>Código ciudad</label>
 			</th>
 			<td>
-				<input type="number" name="codigoCiudad" min="7" maxlength="15"/>
+				<input type="number" name="codigoCiudad" min="7" max="15"/>
 			</td>
 		</tr>
 		<tr>
@@ -109,7 +107,7 @@
 				<label>Teléfono celular</label>
 			</th>
 			<td>
-				<input type="text" name="telCelular" min="7" maxlength="15"/>
+				<input type="text" name="telCelular" min="7" max="15"/>
 			</td>
 		</tr>
 		<tr>
@@ -117,7 +115,7 @@
 				<label>Correo electrónico</label>
 			</th>
 			<td>
-				<input type="email" name="correoElectronico"/>
+				<input type="email" name="correoElectronico"/>@.
 			</td>
 		</tr>
 		<tr>
@@ -139,6 +137,7 @@
 			</th>
 		</tr>
 	</table>
+	<button type="submit">Enviar</button>
 	</form>
 </body>
 </html>
