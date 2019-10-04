@@ -9,11 +9,11 @@
 	<form action="/proyectosalud1/add" method="get">
 	<table>
 		<tr>
-			<th><label>Tipo de identificación sddassdasd</label></th>
+			<th><label>Tipo de identificación</label></th>
 			<th>
 				<select>
 					<option value="cc">CC</option>
-					<option value="ti">TII</option>
+					<option value="ti">TI</option>
 					<option value="ce">CE</option>
 				</select>
 			</th>
@@ -87,11 +87,48 @@
 			</th>
 		</tr>
 		<tr>
+			<th><label>Presto servicio militar</label></th>
 			<th>
-				<label>Código país</label>
+				<select>
+					<option value="siPrestoServ">1. Sí</option>
+					<option value="noPrestoServ">2. No</option>
+				</select>
+			</th>
+		</tr>
+		<tr>
+			<th>
+				<label>Tiempo de servicio militar</label>
 			</th>
 			<td>
-				<input type="number" name="codigoPais" min="7" max="15"/>
+				<input type="number" name="tiempoServMilitar"/>
+			</td>
+		</tr>
+	</table>
+	<br>
+	<label>Sección ubicación</label>
+	<table>
+		<tr>
+			<th>
+				<label>Dirección de residencia</label>
+			</th>
+			<td>
+				<input type="text" name="direccion"/>
+			</td>
+		</tr>
+		<tr>
+			<th><label>Tipo de zona</label></th>
+			<th>
+				<select>
+					<option value="zonaRural">Rural</option>
+					<option value="zonaUrbana">Urbana</option>
+				</select>
+			</th>
+		<tr>
+			<th>
+				<label>Código del país</label>
+			</th>
+			<td>
+				<input type="number" name="codigoPais" min="7" max="15" required="required"/>
 			</td>
 		</tr>
 		<tr>
@@ -99,7 +136,7 @@
 				<label>Código ciudad</label>
 			</th>
 			<td>
-				<input type="number" name="codigoCiudad" min="7" max="15"/>
+				<input type="number" name="codigoCiudad" min="7" maxlength="15" required="required"/>
 			</td>
 		</tr>
 		<tr>
@@ -107,7 +144,7 @@
 				<label>Teléfono celular</label>
 			</th>
 			<td>
-				<input type="text" name="telCelular" min="7" max="15"/>
+				<input type="text" name="telCelular" min="7" maxlength="15"/>
 			</td>
 		</tr>
 		<tr>
@@ -115,20 +152,27 @@
 				<label>Correo electrónico</label>
 			</th>
 			<td>
-				<input type="email" name="correoElectronico"/>@.
+				<input type="email" name="correoElectronico"/>
 			</td>
 		</tr>
+	</table>
+	<br>
+	<label>Sección caracterización</label>
+	<table>
 		<tr>
 			<th><label>Estado civil</label></th>
 			<th>
-				<select>
-					<option value="soltero">Soltero</option>
-					<option value="casado">Casado</option>
+				<select required="required">
+					<option value="estadoSoltero">Soltero</option>
+					<option value="estadoCasado">Casado</option>
+					<option value="estadoDivorciado">Divorciado</option>
+					<option value="estadoUnionLibre">Unión libre</option>
+					<option value="estadoViudo">Viudo</option>
 				</select>
 			</th>
 		</tr>
 		<tr>
-			<th><label>Estrato</label></th>
+			<th><label>Estrato socioeconomico</label></th>
 			<th>
 				<select>
 					<option value="mayorIgualCero">>= 0</option>
