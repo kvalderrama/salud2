@@ -43,7 +43,7 @@
 		</DireccionDeResidencia>
 		<TipoDeZona>
 			<Zona Tipo='Rural'></Zona>
-			<Zona Tipo='Urbanaa'></Zona>
+			<Zona Tipo='Urbana'></Zona>
 		</TipoDeZona>
 		<CodigoDelPais>
 		
