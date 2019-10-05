@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <IdentificacionUsuario>
-	<TipodeIdentificacion>
-		<Tipo>CC</Tipo>
-		<Tipo>TI</Tipo>
-		<Tipo>CE</Tipo>
-	</TipodeIdentificacion>
+	<TipodeIdentificacion Tipo='CC'></TipodeIdentificacion>
+	<TipodeIdentificacion Tipo='CE'></TipodeIdentificacion>
+	<TipodeIdentificacion Tipo='TI'></TipodeIdentificacion>
 </IdentificacionUsuario>
