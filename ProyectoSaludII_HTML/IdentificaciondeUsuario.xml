@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<IdentificacionUsuario>
-	<TipodeIdentificacion>
-		<Tipo>CC</Tipo>
-		<Tipo>CC</Tipo>
-		<Tipo>CC</Tipo>
-	</TipodeIdentificacion>
-</IdentificacionUsuario>
+<Paciente>
+	<IdentificacionUsuario>
+		<TipodeIdentificacion>
+			<Tipo>CC</Tipo>
+			<Tipo>CC</Tipo>
+			<Tipo>CC</Tipo>
+		</TipodeIdentificacion>
+	</IdentificacionUsuario>
 
-<SeccionUbicacion>
-	<DireccionDeResidencia>
+	<SeccionUbicacion>
+		<DireccionDeResidencia>
 		
-	</DireccionDeResidencia>
-	<TipoDeZona>
-		<Zona>Rural</Zona>
-		<Zona>Urbana</Zona>
-	</TipoDeZona>
-	<CodigoDelPais>
+		</DireccionDeResidencia>
+		<TipoDeZona>
+			<Zona>Rural</Zona>
+			<Zona>Urbana</Zona>
+		</TipoDeZona>
+		<CodigoDelPais>
 		
-	</CodigoDelPais>
-	<CodigoCiudad>
+		</CodigoDelPais>
+		<CodigoCiudad>
 		
-	</CodigoCiudad>
-	<TelefonoCelular>
+		</CodigoCiudad>
+		<TelefonoCelular>
 		
-	</TelefonoCelular>
-	<CorreoElectronico>
+		</TelefonoCelular>
+		<CorreoElectronico>
 		
-	</CorreoElectronico>
-</SeccionUbicacion>
+		</CorreoElectronico>
+	</SeccionUbicacion>
 
-<SeccionCaracterizacion>
+	<SeccionCaracterizacion>
 
-</SeccionCaracterizacion>
+	</SeccionCaracterizacion>
+</Paciente>
