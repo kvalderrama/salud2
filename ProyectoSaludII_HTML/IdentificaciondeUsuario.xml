@@ -48,10 +48,22 @@
 		<TelefonoCelular></TelefonoCelular>
 		<CorreoElectronico></CorreoElectronico>
 </SeccionUbicacion>
-
-<SeccionCaracterizacion1>
-
-</SeccionCaracterizacion1>
-
+<SeccionCaracterizacion>
+		<EstadoCivil>
+			<Estado Tipo='Soltero'></Estado>
+			<Estado Tipo='Casado'></Estado>
+			<Estado Tipo='Divorciado'></Estado>
+			<Estado Tipo='Unionlibre'></Estado>
+		</EstadoCivil>
+		<EstratoSocioeconomico>
+			<Estado Tipo='0'></Estado>
+			<Estado Tipo='1'></Estado>
+			<Estado Tipo='2'></Estado>
+			<Estado Tipo='3'></Estado>
+			<Estado Tipo='4'></Estado>
+			<Estado Tipo='5'></Estado>
+			<Estado Tipo='6'></Estado>
+		</EstratoSocioeconomico>
+</SeccionCaracterizacion>
 </paciente>
 
