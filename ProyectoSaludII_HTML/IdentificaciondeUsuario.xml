@@ -56,13 +56,13 @@
 			<Estado Tipo='Unionlibre'></Estado>
 		</EstadoCivil>
 		<EstratoSocioeconomico>
-			<Estado Tipo='0'></Estado>
-			<Estado Tipo='1'></Estado>
-			<Estado Tipo='2'></Estado>
-			<Estado Tipo='3'></Estado>
-			<Estado Tipo='4'></Estado>
-			<Estado Tipo='5'></Estado>
-			<Estado Tipo='6'></Estado>
+			<Estrato Tipo='0'></Estrato>
+			<Estrato Tipo='1'></Estrato>
+			<Estrato Tipo='2'></Estrato>
+			<Estrato Tipo='3'></Estrato>
+			<Estrato Tipo='4'></Estrato>
+			<Estrato Tipo='5'></Estrato>
+			<Estrato Tipo='6'></Estrato>
 		</EstratoSocioeconomico>
 </SeccionCaracterizacion>
 </paciente>
