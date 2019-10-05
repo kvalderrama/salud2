@@ -38,25 +38,15 @@
 </IdentificacionUsuario>
 
 <SeccionUbicacion>
-		<DireccionDeResidencia>
-		
-		</DireccionDeResidencia>
+		<DireccionDeResidencia></DireccionDeResidencia>
 		<TipoDeZona>
 			<Zona Tipo='Rural'></Zona>
 			<Zona Tipo='Urbana'></Zona>
 		</TipoDeZona>
-		<CodigoDelPais>
-		
-		</CodigoDelPais>
-		<CodigoCiudad>
-		
-		</CodigoCiudad>
-		<TelefonoCelular>
-		
-		</TelefonoCelular>
-		<CorreoElectronico>
-		
-		</CorreoElectronico>
+		<CodigoDelPais></CodigoDelPais>
+		<CodigoCiudad></CodigoCiudad>
+		<TelefonoCelular></TelefonoCelular>
+		<CorreoElectronico></CorreoElectronico>
 </SeccionUbicacion>
 
 <SeccionCaracterizacion1>
