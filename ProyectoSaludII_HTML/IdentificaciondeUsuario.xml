@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <IdentificacionUsuario>
-	<TipodeIdentificacion Tipo='CC'></TipodeIdentificacion>
-	<TipodeIdentificacion Tipo='CE'></TipodeIdentificacion>
-	<TipodeIdentificacion Tipo='TI'></TipodeIdentificacion>
+	<Documento>
+		<TipodeIdentificacion Tipo='CC'></TipodeIdentificacion>
+		<TipodeIdentificacion Tipo='CE'></TipodeIdentificacion>
+		<TipodeIdentificacion Tipo='TI'></TipodeIdentificacion>
+		<NumeroIdentificacion></NumeroIdentificacion>
+	</Documento>
+	<Asociacion>
+		<TipoUsuario Tipo='Vinculado'></TipoUsuario>
+		<TipoUsuario Tipo='Subsidiado'></TipoUsuario>
+		<TipoUsuario Tipo='Contributivo'></TipoUsuario>
+		<TipoUsuario Tipo='Otro'></TipoUsuario>
+	</Asociacion>
 </IdentificacionUsuario>
