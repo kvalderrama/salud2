@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <paciente>
-<IdentificacionUsuario>
-	<Documento>
-		<TipodeIdentificacion Tipo='CC'></TipodeIdentificacion>
-		<TipodeIdentificacion Tipo='CE'></TipodeIdentificacion>
-		<TipodeIdentificacion Tipo='TI'></TipodeIdentificacion>
-		<NumeroIdentificacion></NumeroIdentificacion>
-	</Documento>
-	<Asociacion>
-		<TipoUsuario Tipo='Vinculado'></TipoUsuario>
-		<TipoUsuario Tipo='Subsidiado'></TipoUsuario>
-		<TipoUsuario Tipo='Contributivo'></TipoUsuario>
-		<TipoUsuario Tipo='Otro'></TipoUsuario>
-	</Asociacion>
-	<Nombres>
-		<PrimerNombre></PrimerNombre>
-		<SegundoNombre></SegundoNombre>
-	</Nombres>
-	<FechaNacimiento>
-		<Dia></Dia>
-		<Mes></Mes>
-		<Año></Año>
-	</FechaNacimiento>
-	<Sexo>
-		<TipoSexo Tipo='M'></TipoSexo>
-		<TipoSexo Tipo='F'></TipoSexo>
-	</Sexo>
-	<RH>
-		<Letra></Letra>
-		<Signo></Signo>
-	</RH>
-	<SituacionMilitar>
-		<ServicioMilitar Confirmacion='Si'></ServicioMilitar>
-		<ServicioMilitar Confirmacion='No'></ServicioMilitar>
-	</SituacionMilitar>
-<TiempoMilitar></TiempoMilitar>
-</IdentificacionUsuario>
+	<IdentificacionUsuario>
+		<Documento>
+			<TipodeIdentificacion Tipo='CC'></TipodeIdentificacion>
+			<TipodeIdentificacion Tipo='CE'></TipodeIdentificacion>
+			<TipodeIdentificacion Tipo='TI'></TipodeIdentificacion>
+			<NumeroIdentificacion></NumeroIdentificacion>
+		</Documento>
+		<Asociacion>
+			<TipoUsuario Tipo='Vinculado'></TipoUsuario>
+			<TipoUsuario Tipo='Subsidiado'></TipoUsuario>
+			<TipoUsuario Tipo='Contributivo'></TipoUsuario>
+			<TipoUsuario Tipo='Otro'></TipoUsuario>
+		</Asociacion>
+		<Nombres>
+			<PrimerNombre></PrimerNombre>
+			<SegundoNombre></SegundoNombre>
+		</Nombres>
+		<FechaNacimiento>
+			<Dia></Dia>
+			<Mes></Mes>
+			<Año></Año>
+		</FechaNacimiento>
+		<Sexo>
+			<TipoSexo Tipo='M'></TipoSexo>
+			<TipoSexo Tipo='F'></TipoSexo>
+		</Sexo>
+		<RH>
+			<Letra></Letra>
+			<Signo></Signo>
+		</RH>
+		<SituacionMilitar>
+			<ServicioMilitar Confirmacion='Si'></ServicioMilitar>
+			<ServicioMilitar Confirmacion='No'></ServicioMilitar>
+		</SituacionMilitar>
+		<TiempoMilitar></TiempoMilitar>
+	</IdentificacionUsuario>
 
-<SeccionUbicacion>
+	<SeccionUbicacion>
 		<DireccionDeResidencia></DireccionDeResidencia>
 		<TipoDeZona>
 			<Zona Tipo='Rural'></Zona>
@@ -47,8 +47,8 @@
 		<CodigoCiudad></CodigoCiudad>
 		<TelefonoCelular></TelefonoCelular>
 		<CorreoElectronico></CorreoElectronico>
-</SeccionUbicacion>
-<SeccionCaracterizacion>
+	</SeccionUbicacion>
+	<SeccionCaracterizacion>
 		<EstadoCivil>
 			<Estado Tipo='Soltero'></Estado>
 			<Estado Tipo='Casado'></Estado>
@@ -64,6 +64,6 @@
 			<Estrato Tipo='5'></Estrato>
 			<Estrato Tipo='6'></Estrato>
 		</EstratoSocioeconomico>
-</SeccionCaracterizacion>
+	</SeccionCaracterizacion>
 </paciente>
 
