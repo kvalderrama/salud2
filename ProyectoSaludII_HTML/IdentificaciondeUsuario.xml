@@ -12,4 +12,31 @@
 		<TipoUsuario Tipo='Contributivo'></TipoUsuario>
 		<TipoUsuario Tipo='Otro'></TipoUsuario>
 	</Asociacion>
+	<Nombres>
+		<PrimerNombre></PrimerNombre>
+		<SegundoNombre></SegundoNombre>
+	</Nombres>
+	<FechaNacimiento>
+		<Dia></Dia>
+		<Mes></Mes>
+		<Año></Año>
+	</FechaNacimiento>
+	<Sexo>
+		<TipoSexo Tipo='M'></TipoSexo>
+		<TipoSexo Tipo='F'></TipoSexo>
+	</Sexo>
+	<RH>
+		<Letra></Letra>
+		<Signo></Signo>
+	</RH>
+	<SituacionMilitar>
+		<ServicioMilitar Confirmacion='Si'></ServicioMilitar>
+		<ServicioMilitar Confirmacion='No'></ServicioMilitar>
+	</SituacionMilitar>
+
+
+
+
+
+
 </IdentificacionUsuario>
