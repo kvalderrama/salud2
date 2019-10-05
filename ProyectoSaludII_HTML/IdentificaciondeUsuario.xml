@@ -41,8 +41,8 @@
 		
 		</DireccionDeResidencia>
 		<TipoDeZona>
-			<Zona>Rural</Zona>
-			<Zona>Urbanaaa</Zona>
+			<Zona Tipo='Rural'></Zona>
+			<Zona Tipo='Urbana'></Zona>
 		</TipoDeZona>
 		<CodigoDelPais>
 		
@@ -58,9 +58,9 @@
 		</CorreoElectronico>
 </SeccionUbicacion>
 
-	<SeccionCaracterizacion1>
+<SeccionCaracterizacion1>
 
-	</SeccionCaracterizacion1>
+</SeccionCaracterizacion1>
 
 
 
