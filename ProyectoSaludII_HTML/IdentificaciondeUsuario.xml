@@ -34,6 +34,7 @@
 		<ServicioMilitar Confirmacion='Si'></ServicioMilitar>
 		<ServicioMilitar Confirmacion='No'></ServicioMilitar>
 	</SituacionMilitar>
+<TiempoMilitar></TiempoMilitar>
 </IdentificacionUsuario>
 
 <SeccionUbicacion>
@@ -62,8 +63,5 @@
 
 </SeccionCaracterizacion1>
 
-
-
-
-
 </paciente>
+
