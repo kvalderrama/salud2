@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IdentificacionUsuario>
+	<Documento>
+		<TipodeIdentificacion Tipo='CC'></TipodeIdentificacion>
+		<TipodeIdentificacion Tipo='CE'></TipodeIdentificacion>
+		<TipodeIdentificacion Tipo='TI'></TipodeIdentificacion>
+		<NumeroIdentificacion></NumeroIdentificacion>
+	</Documento>
+	<Asociacion>
+		<TipoUsuario Tipo='Vinculado'></TipoUsuario>
+		<TipoUsuario Tipo='Subsidiado'></TipoUsuario>
+		<TipoUsuario Tipo='Contributivo'></TipoUsuario>
+		<TipoUsuario Tipo='Otro'></TipoUsuario>
+	</Asociacion>
+	<Nombres>
+		<PrimerNombre></PrimerNombre>
+		<SegundoNombre></SegundoNombre>
+	</Nombres>
+	<FechaNacimiento>
+		<Dia></Dia>
+		<Mes></Mes>
+		<Año></Año>
+	</FechaNacimiento>
+	<Sexo>
+		<TipoSexo Tipo='M'></TipoSexo>
+		<TipoSexo Tipo='F'></TipoSexo>
+	</Sexo>
+	<RH>
+		<Letra></Letra>
+		<Signo></Signo>
+	</RH>
+	<SituacionMilitar>
+		<ServicioMilitar Confirmacion='Si'></ServicioMilitar>
+		<ServicioMilitar Confirmacion='No'></ServicioMilitar>
+	</SituacionMilitar>
+
+	<SeccionUbicacion>
+		<DireccionDeResidencia>
+		
+		</DireccionDeResidencia>
+		<TipoDeZona>
+			<Zona>Rural</Zona>
+			<Zona>Urbanaaa</Zona>
+		</TipoDeZona>
+		<CodigoDelPais>
+		
+		</CodigoDelPais>
+		<CodigoCiudad>
+		
+		</CodigoCiudad>
+		<TelefonoCelular>
+		
+		</TelefonoCelular>
+		<CorreoElectronico>
+		
+		</CorreoElectronico>
+	</SeccionUbicacion>
+
+	<SeccionCaracterizacion1>
+
+	</SeccionCaracterizacion1>
+
+
+
+
+</IdentificacionUsuario>
