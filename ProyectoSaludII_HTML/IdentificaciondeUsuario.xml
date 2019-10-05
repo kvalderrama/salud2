@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<paciente>
 <IdentificacionUsuario>
 	<Documento>
 		<TipodeIdentificacion Tipo='CC'></TipodeIdentificacion>
@@ -33,8 +34,9 @@
 		<ServicioMilitar Confirmacion='Si'></ServicioMilitar>
 		<ServicioMilitar Confirmacion='No'></ServicioMilitar>
 	</SituacionMilitar>
+</IdentificacionUsuario>
 
-	<SeccionUbicacion>
+<SeccionUbicacion>
 		<DireccionDeResidencia>
 		
 		</DireccionDeResidencia>
@@ -54,7 +56,7 @@
 		<CorreoElectronico>
 		
 		</CorreoElectronico>
-	</SeccionUbicacion>
+</SeccionUbicacion>
 
 	<SeccionCaracterizacion1>
 
@@ -63,4 +65,5 @@
 
 
 
-</IdentificacionUsuario>
+
+</paciente>
