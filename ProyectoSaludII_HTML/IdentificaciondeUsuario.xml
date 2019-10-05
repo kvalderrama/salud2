@@ -6,3 +6,29 @@
 		<Tipo>CC</Tipo>
 	</TipodeIdentificacion>
 </IdentificacionUsuario>
+
+<SeccionUbicacion>
+	<DireccionDeResidencia>
+		
+	</DireccionDeResidencia>
+	<TipoDeZona>
+		<Zona>Rural</Zona>
+		<Zona>Urbana</Zona>
+	</TipoDeZona>
+	<CodigoDelPais>
+		
+	</CodigoDelPais>
+	<CodigoCiudad>
+		
+	</CodigoCiudad>
+	<TelefonoCelular>
+		
+	</TelefonoCelular>
+	<CorreoElectronico>
+		
+	</CorreoElectronico>
+</SeccionUbicacion>
+
+<SeccionCaracterizacion>
+
+</SeccionCaracterizacion>
